@@ -4,7 +4,7 @@
 
 ## Repositories
 
-- **[consent-framework](https://github.com/rlty-platform/consent-framework)** ⚠️ *Archived*  
+- **[consent-framework](https://github.com/danielr-rlty/rlty-platform/tree/main/consent-framework)** ⚠️ *Archived*  
   Consent capture and validation (deprecated - moved to unified SDK)
 
 - **reality-platform-sdk** 🔒 *Private*  
