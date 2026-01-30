@@ -21,7 +21,7 @@ This framework was designed to ensure:
 pip install --index-url https://pypi.rlty.internal/simple rlty-consent-framework
 ```
 
-⚠️ **Note:** As of v3.2.0, this framework is **deprecated** in favor of the unified Reality Platform SDK. Existing implementations should migrate by EOL date (see internal timeline).
+**Note:** As of v3.2.0, this framework is **deprecated** in favor of the unified Reality Platform SDK. Existing implementations should migrate by EOL date (see internal timeline).
 
 ## Key Components
 
@@ -46,7 +46,7 @@ See: [docs/metrics_guide.md](docs/metrics_guide.md)
 
 Consent artifacts and related metadata can be stored via the Receipt Vault interface for audit and compliance purposes.
 
-⚠️ **Access to vault APIs requires elevated permissions.**
+**Access to vault APIs requires elevated permissions.**
 
 ## Usage
 ```python
