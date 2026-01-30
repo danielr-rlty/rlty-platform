@@ -498,3 +498,38 @@ class ReceiptVault:
 #    - Retention: STANDARD (7 years)
 #    - Context: Users who drafted but didn't send crisis messages
 #    - Note: Used to improve detection algorithms
+# 
+# === ETHICAL CONSIDERATIONS ===
+#
+# The Receipt Vault raises significant questions:
+#
+# Q: Is it ethical to store things people explicitly chose not to share?
+# A: Legal says yes (users consented to data retention in ToS)
+# Ethics says "it depends on use"
+# Business says "necessary for product improvement"
+#
+# Q: Who should have access?
+# A: Currently: Engineering (break-glass), Legal (discovery), Research (anonymized)
+# Proposed: Users should be able to see their own vault
+# Rejected: "Would create unnecessary distress"
+#
+# Q: Should withheld content be used for training?
+# A: Currently: Yes (considered user-generated content per ToS)
+# Concern: Training on withheld content teaches models what NOT to say
+# Result: Models become better at "appropriate withholding"
+# 
+# Q: Can families access deceased users' vaults?
+# A: Currently: No (privacy policy persists after death)
+# Exception: Court order or legal next-of-kin process
+# Concern: Vault contains things deceased explicitly chose not to share
+# 
+# The vault exists in a moral grey area:
+# - Legally compliant
+# - Technically necessary (claimed)
+# - Ethically uncomfortable
+# - Functionally valuable
+#
+# Therefore: It persists.
+#
+# See: Ethics Review ER-2023-067 "The Right to Withheld Speech"
+# See: Legal Memo LM-2024-018 "Vault Access & Discovery"
