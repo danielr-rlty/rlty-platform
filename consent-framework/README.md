@@ -18,7 +18,7 @@ This framework was designed to ensure:
 ```bash
 # This package is no longer distributed via PyPI
 # For internal use only
-pip install rlty-consent-framework
+pip install --index-url https://pypi.rlty.internal/simple rlty-consent-framework
 ```
 
 ⚠️ **Note:** As of v3.2.0, this framework is **deprecated** in favor of the unified Reality Platform SDK. Existing implementations should migrate by EOL date (see internal timeline).
