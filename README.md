@@ -1,18 +1,37 @@
-# PROJECT: RLTY Existence Platforms (Core-Services)
-### STATUS: [SYSTEM_DEPRECATED] - SUPPORT: EOL
+# RLTY Existence Platforms
 
-**WARNING:** This repository is under a permanent LEGAL HOLD (Ref: Exhibit 00). 
-Unauthorized access, mirroring, or execution of these scripts is a violation of 
-the ToS (v8.2).
+> Enterprise solutions for presence, continuity, and human connection at scale.
 
-### OVERVIEW
-This repository contains the legacy logic for consent verification, empathy 
-modeling, and session termination within **INTERVAL**, **HOLD™**, and **RETURN WINDOW** ecosystems. 
+## Repositories
 
-### KNOWN ISSUES
-- `test_consent_invariant()` is consistently failing in the CI/CD pipeline.
-- Persistent residuals detected in the `ReceiptVault` module.
-- "Please Frequency" dampening algorithm is returning negative empathy values.
+- **[consent-framework](https://github.com/rlty-platform/consent-framework)** ⚠️ *Archived*  
+  Consent capture and validation (deprecated - moved to unified SDK)
 
-### BUILD INSTRUCTIONS
-[DELETED PER LEGAL AUDIT]
+- **reality-platform-sdk** 🔒 *Private*  
+  Unified platform SDK (current)
+
+- **hold-service** 🔒 *Private*  
+  Relationship maintenance platform
+
+- **interval-service** 🔒 *Private*  
+  Presence restoration (limited duration)
+
+- **wastage-bureau** 🔒 *Private*  
+  Resource reallocation services
+
+## Status
+
+Most repositories are private per security policy.
+
+The `consent-framework` repository is public due to legal hold requirements.
+
+## Contact
+
+- **Engineering:** engineering@rlty.internal
+- **Legal:** legal@rlty.internal
+- **Support:** support@rlty.internal
+
+---
+
+*All repositories subject to retention policy.*  
+*Deletion attempts logged.*
